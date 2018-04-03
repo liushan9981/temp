@@ -97,7 +97,7 @@ int main() {
          printf("%s    %s\n", mimebook[myindex].content_type,
                mimebook[myindex].extension);
         if (strcmp(file_type, mimebook[myindex].extension) == 0)
-            printf("---------- %s %s\n", mimebook[myindex].extension, mimebook[myindex].content_type);
+            printf("#### %s %s\n", mimebook[myindex].extension, mimebook[myindex].content_type);
     }
     printf("count is: %d\n", index_mimebook);
 
